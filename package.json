@@ -1,0 +1,19 @@
+{
+  "name": "mlil.j_reminder",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/react": "^18.2.21",
+    "express": "^4.18.2",
+    "install": "^0.13.0",
+    "npm": "^9.8.1",
+    "typescript": "^5.2.2"
+  }
+}
