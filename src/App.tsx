@@ -1,8 +1,17 @@
 import React from "react";
-import Test from './test'
+import { Route, Routes } from 'react-router-dom';
+import EditPage from "./component/page/edit";
+import LoginPage from "./component/page/login";
+import MainPage from "./component/page/main";
 const app = () : JSX.Element => {
-  return ( <>테스트
-  <Test/></>)
+  return (
+  <>
+    <Routes>
+      <Route path="/" element={<MainPage />} />
+      <Route path="/login" element={<LoginPage />} />
+      <Route path="/edit" element={<EditPage />} />
+    </Routes>
+  </>)
 }
 
 export default app;
