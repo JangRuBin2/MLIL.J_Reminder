@@ -23,9 +23,9 @@ const clientConfig = {
     ],
   },
   // 성능 경고 메시지 안 나오게 함
-  //  performance: {
-  //   hints: false,
-  // },
+   performance: {
+    hints: false,
+  },
   devServer: {
     historyApiFallback: true,
     port: 8085,
