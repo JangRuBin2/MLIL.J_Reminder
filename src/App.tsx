@@ -3,6 +3,7 @@ import { Route, Routes } from 'react-router-dom';
 import EditPage from "./component/page/edit";
 import LoginPage from "./component/page/login";
 import MainPage from "./component/page/main";
+import './css/common.css';
 const app = () : JSX.Element => {
   return (
   <>
